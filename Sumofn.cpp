@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n;
+    int sum = 0;
+    cout << "Enter The Limit : ";
+    cin >> n;
+    for(int i = 1 ; i<= n ; i++){
+        sum += i;
+    }
+    cout << "\nSum of 1 to " << n << " = " << sum << endl;
+    return 0; 
+}
