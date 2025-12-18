@@ -1,0 +1,19 @@
+# Compiled source
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.lib
+*.obj
+*.o
+
+# VS Code
+.vscode/
+
+# Debug logs
+*.log
+
+# Build folders
+build/
+bin/
