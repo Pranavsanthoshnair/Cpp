@@ -8,6 +8,8 @@ int main(){
 
     cout << &ptr << endl;
     cout << ptr2 << endl;
+    cout << *(&a) << endl; // Dereferencing
+    cout << *ptr << endl;
     return 0;
 }
 
