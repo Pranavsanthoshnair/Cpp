@@ -17,3 +17,6 @@
 # Build folders
 build/
 bin/
+
+.idea/
+*.iml
