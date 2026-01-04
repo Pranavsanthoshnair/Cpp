@@ -14,5 +14,11 @@ int main(){
     // Again, movement is by sizeof(int)
     p--;
     cout << p << endl;
-    return 0;
+    
+    int *ptr;
+    int *ptr1 = ptr + 2;
+
+    cout << ptr1 - ptr << endl;   // Blocks between both pointers
+    cout << (ptr<ptr1) << endl;
+
 }
